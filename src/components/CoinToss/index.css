@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 750vh;
+  background-color: white;
+  padding: 10px;
+  border: 10px;
+}
+.heading {
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 30px;
+  color: #a35200;
+}
+.title {
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 15px;
+  color: #334155;
+}
+.toss-result-image {
+  height: 75px;
+  width: 75px;
+}
+.button {
+  font-family: roboto;
+  border-radius: 5px;
+  color: #a35200;
+  background-color: #f9d423;
+  font-weight: 200;
+  font-size: 10px;
+  padding: 5px;
+  border: none;
+}
+.count-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 5px;
+}
+.count {
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 10px;
+  color: #334155;
+}
